@@ -1,0 +1,42 @@
+a:hover {
+	text-decoration: none;
+}
+
+.sidebar-brand-icon {
+	color: rgba(255, 255, 255, .9);
+}
+
+.sidebar-brand-text {
+	font-family: 'Lobster';
+	letter-spacing: .5px;
+	text-transform: none;
+	font-size: 20px;
+	color: rgba(255, 255, 255, .9);
+}
+
+/* Extra small devices (small resolution phone, <576px) The navbar toggle appears at this breakpoint */
+.card-columns {column-count: 1;}
+
+/* Small devices (mobile phone, 576 and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 576px) {  
+  .card-columns {column-count: 2;}
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+	.card-columns {column-count: 3;}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+	.card-columns {column-count: 3;}
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+	.card-columns {column-count: 4;} 
+}
+
+.video-max-height {
+	max-height: 480px
+}
